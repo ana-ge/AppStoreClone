@@ -12,3 +12,4 @@ struct Result: Decodable {
     let screenshotUrls: [String]
     let artworkUrl100: String //app icon
 }
+
