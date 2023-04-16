@@ -4,6 +4,8 @@ class AppsHorizontalController: BaseListController, UICollectionViewDelegateFlow
     
     let cellId = "cellId"
     
+    var appGroup: AppGroup?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +24,8 @@ class AppsHorizontalController: BaseListController, UICollectionViewDelegateFlow
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! AppRowCell
+        cell.companyLabel
         return cell
     }
     
