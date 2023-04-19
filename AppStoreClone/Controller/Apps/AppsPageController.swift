@@ -18,7 +18,6 @@ class AppsPageController: BaseListController, UICollectionViewDelegateFlowLayout
     var editorChoiceGames: AppGroup?
     
     fileprivate func fetchData() {
-        print("Fetching JSON Data")
         Service.shared.fetchGames { appGroup, error in
             if let error = error {
                 print("Failed to fetch games:", error)
@@ -47,7 +46,7 @@ class AppsPageController: BaseListController, UICollectionViewDelegateFlowLayout
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! AppsGroupCell
         
-        cell.titleLabel.text = "Editors Choice Games"
+        cell.titleLabel.text = editorChoiceGames?.feed.title
         cell.horizontalController.appGroup = editorChoiceGames
         cell.horizontalController.collectionView.reloadData()
         return cell
