@@ -64,6 +64,7 @@ class SearchResultCell: UICollectionViewCell {
     lazy var scrImageView2 = self.createScreenshotImageView()
     lazy var scrImageView3 = self.createScreenshotImageView()
     
+    
     func createScreenshotImageView() -> UIImageView {
         let imageView = UIImageView()
         imageView.layer.cornerRadius = 8
@@ -73,6 +74,7 @@ class SearchResultCell: UICollectionViewCell {
         imageView.contentMode = .scaleAspectFill
         return imageView
     }
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
