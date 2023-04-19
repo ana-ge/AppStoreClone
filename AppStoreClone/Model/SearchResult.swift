@@ -5,6 +5,7 @@ struct SearchResult: Decodable {
     let results: [Result]
 }
 
+
 struct Result: Decodable {
     let trackName: String?
     let primaryGenreName: String?
