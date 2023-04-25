@@ -5,12 +5,11 @@ struct SearchResult: Decodable {
     let results: [Result]
 }
 
-
 struct Result: Decodable {
-    let trackName: String?
-    let primaryGenreName: String?
-    let averageUserRating: Float?
+    let trackName: String
+    let primaryGenreName: String
+    var averageUserRating: Float?
     let screenshotUrls: [String]
-    let artworkUrl100: String //app icon
+    let artworkUrl100: String // app icon
 }
 
