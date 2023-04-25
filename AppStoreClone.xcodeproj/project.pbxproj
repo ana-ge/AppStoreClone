@@ -18,6 +18,8 @@
 		12406E0A29EAC5DF009B7896 /* AppsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12406E0929EAC5DF009B7896 /* AppsHeaderCell.swift */; };
 		12406E0C29EC0251009B7896 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12406E0B29EC0251009B7896 /* AppGroup.swift */; };
 		12406E0E29F57740009B7896 /* SocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12406E0D29F57740009B7896 /* SocialApp.swift */; };
+		12406E1029F7CB95009B7896 /* HorizontalSnappingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12406E0F29F7CB95009B7896 /* HorizontalSnappingController.swift */; };
+		12406E1229F7D01D009B7896 /* BetterSnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12406E1129F7D01D009B7896 /* BetterSnappingLayout.swift */; };
 		126805CA29DC16250086F37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126805C929DC16250086F37F /* AppDelegate.swift */; };
 		126805CC29DC16250086F37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126805CB29DC16250086F37F /* SceneDelegate.swift */; };
 		126805CE29DC16250086F37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126805CD29DC16250086F37F /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 		12406E0929EAC5DF009B7896 /* AppsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHeaderCell.swift; sourceTree = "<group>"; };
 		12406E0B29EC0251009B7896 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
 		12406E0D29F57740009B7896 /* SocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialApp.swift; sourceTree = "<group>"; };
+		12406E0F29F7CB95009B7896 /* HorizontalSnappingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSnappingController.swift; sourceTree = "<group>"; };
+		12406E1129F7D01D009B7896 /* BetterSnappingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSnappingLayout.swift; sourceTree = "<group>"; };
 		126805C629DC16250086F37F /* AppStoreClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126805C929DC16250086F37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		126805CB29DC16250086F37F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 				12406DF429E452C9009B7896 /* Apps */,
 				126805E029DC16E20086F37F /* BaseTabBarController.swift */,
 				12406DF729E453CA009B7896 /* BaseListController.swift */,
+				12406E0F29F7CB95009B7896 /* HorizontalSnappingController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				126805EB29DD6FD30086F37F /* UIView+Layout.swift */,
 				126805ED29E00A9C0086F37F /* VerticalStackView.swift */,
 				12406E0129E84803009B7896 /* Extensions.swift */,
+				12406E1129F7D01D009B7896 /* BetterSnappingLayout.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -332,6 +338,7 @@
 				126805CE29DC16250086F37F /* ViewController.swift in Sources */,
 				12406DFE29E83ECD009B7896 /* AppsHorizontalController.swift in Sources */,
 				12406DF829E453CA009B7896 /* BaseListController.swift in Sources */,
+				12406E1229F7D01D009B7896 /* BetterSnappingLayout.swift in Sources */,
 				126805D429DC16250086F37F /* AppStoreClone.xcdatamodeld in Sources */,
 				12406DFC29E455DE009B7896 /* AppsGroupCell.swift in Sources */,
 				12406E0C29EC0251009B7896 /* AppGroup.swift in Sources */,
@@ -343,6 +350,7 @@
 				126805CA29DC16250086F37F /* AppDelegate.swift in Sources */,
 				12406E0229E84803009B7896 /* Extensions.swift in Sources */,
 				12406E0429EAC10C009B7896 /* AppsPageHeader.swift in Sources */,
+				12406E1029F7CB95009B7896 /* HorizontalSnappingController.swift in Sources */,
 				126805CC29DC16250086F37F /* SceneDelegate.swift in Sources */,
 				12406DF629E452D7009B7896 /* AppsPageController.swift in Sources */,
 			);
